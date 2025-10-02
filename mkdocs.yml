@@ -1,0 +1,29 @@
+site_name: The Deadly Site
+site_url: https://thedeadly.app/
+repo_url: https://github.com/ds17f/TheDeadlySite
+repo_name: ds17f/TheDeadlySite
+
+nav:
+  - Home: index.md
+  - Privacy: privacy.md
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
