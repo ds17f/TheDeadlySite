@@ -6,7 +6,8 @@ repo_name: ds17f/TheDeadlySite
 nav:
   - Home: index.md
   - Privacy: privacy.md
-
+  - Legal:
+      - Grateful Dead Streaming Rights: gd-streaming-rights.md
 theme:
   name: material
   palette:
@@ -27,3 +28,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
